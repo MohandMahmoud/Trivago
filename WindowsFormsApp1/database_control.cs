@@ -36,6 +36,7 @@ namespace WindowsFormsApp1
         {
             
             conn.Open();
+            //this function for login 
             try
             {
                 OracleCommand cmd = new OracleCommand();
